@@ -1,0 +1,5 @@
+Test;Problem;Loesung;Status
+Fehlende Werte;Nicht alle Länder verfügen für jedes historische Jahr über CO2-Werte.;Keine künstliche Interpolation. Analysen verwenden nur vollständige Wertepaarungen.;dokumentiert
+Doppelte Jahre;Mehrfachbeobachtungen könnten statistische Ergebnisse verzerren.;Jahresvariable auf Duplikate geprüft.;bestanden
+Ausreißer;Extreme Temperaturwerte können die Regression beeinflussen.;"IQR-Methode zur Identifikation; keine automatische Entfernung realer Beobachtungen.";dokumentiert
+Autokorrelation;Zeitlich aufeinanderfolgende Beobachtungen sind möglicherweise nicht unabhängig.;Durbin-Watson-Test und Analyse erster Differenzen.;geprüft
